@@ -1,0 +1,262 @@
+* {
+  align-content: center;
+  background-color: #d82576;
+}
+
+.ring-sizer {
+  font-family: "omnes-pro", dosis, Open Sans;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.step-container {
+  margin-bottom: 130px;
+}
+
+.instructions {
+  padding-top: 50px;
+  max-width: 440px;
+  margin: 0 auto 50px auto;
+}
+
+/* CARD STYLING */
+.card-container {
+  width: 312px;
+  /* This is the actual width of a card */
+  margin: 20px auto 0;
+}
+
+.credit-card-aspect-ratio {
+  position: relative;
+}
+
+.credit-card-aspect-ratio:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 62.82051282%;
+  /* (196 / 312) * 100%; */
+}
+
+.aspect-content {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.credit-card {
+  position: relative;
+  margin: 0 auto;
+  background-color: #e090b5;
+  border-radius: 10px;
+}
+
+.credit-card-component {
+  position: absolute;
+}
+
+.credit-card-stripe {
+  top: 10%;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+.credit-card-stipe-white {
+  top: 40%;
+  left: 15%;
+  width: 70%;
+  height: 15%;
+  background-color: white;
+}
+
+.credit-card-chip {
+  left: 10%;
+  top: 70%;
+  width: 10%;
+  height: 15%;
+  background-color: #FDDF73;
+  border-radius: 10px;
+}
+
+.credit-card-text {
+  left: 30%;
+  top: 72%;
+  width: 60%;
+  height: 1%;
+  background-color: #646464;
+}
+
+.credit-card-text-2 {
+  top: 77%;
+  width: 45%;
+}
+
+.credit-card-text-3 {
+  top: 82%;
+  width: 50%;
+}
+
+/* RING STYLING */
+.ring-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #E175A7;
+  color: white;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+}
+
+.ring-10 {
+  width: 56.69px;
+  height: 56.69px;
+}
+
+.ring-11 {
+  width: 57.44px;
+  height: 57.44px;
+}
+
+.ring-12 {
+  width: 58.58px;
+  height: 58.58px;
+}
+
+.ring-13 {
+  width: 60.47px;
+  height: 60.47px;
+}
+
+.ring-14 {
+  width: 62.36px;
+  height: 62.36px;
+}
+
+.ring-15 {
+  width: 64.25px;
+  height: 64.25px;
+}
+
+.ring-16 {
+  width: 64.62px;
+  height: 64.62px;
+}
+
+.ring-17 {
+  width: 65.00px;
+  height: 65.00px;
+}
+
+.ring-18 {
+  width: 66.14px;
+  height: 66.14px;
+}
+
+.ring-19 {
+  width: 68.03px;
+  height: 68.03px;
+}
+
+.ring-20 {
+  width: 69.92px;
+  height: 69.92px;
+}
+
+.ring-21 {
+  width: 71.05px;
+  height: 71.05px;
+}
+
+.ring-22 {
+  width: 71.81px;
+  height: 71.81px;
+}
+
+.ring-23 {
+  width: 72.56px;
+  height: 72.56px;
+}
+
+.ring-24 {
+  width: 75.21px;
+  height: 75.21px;
+}
+
+/* ARROW STYLING */
+.arrow-container {
+  display: inline-block;
+  position: absolute;
+  right: -150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-right: 10px;
+  border-top: 9px solid transparent;
+  border-right: 9px solid #646464;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.arrow:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  border: 0 solid transparent;
+  border-top: 3px solid #646464;
+  border-radius: 20px 0 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.arrow-instructions {
+  display: inline-block;
+  width: 120px;
+  margin-top: 0;
+  margin-left: 1.5em;
+  /* position instructions to right of arrow */
+  font-size: 15px;
+  color: #63c3d4;
+}
+
+/* OVERRIDE SQUARE SPACE STYLING */
+.content-inner {
+  /* modifies default squarespace banner/content padding */
+  padding-top: 0px;
+}
+
+/* jQuery UI CSS */
+/* Source: https://jqueryui.com/resources/demos/style.css */
+.ui-draggable,
+.ui-droppable {
+  background-position: top;
+}
